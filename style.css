@@ -55,11 +55,27 @@ main {
 /*PARTE 1 DO MAIN - IMAGEM PRINCIPAL*/
 
 .img-principal {
+    background-image: url(./img/principal.png);
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    height: 40vh;
     width: 100%;
-    padding-top: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.setinha {
+    display: flex;
+    align-items: center;
+    background-color: rgba(141, 141, 141, 0.62);
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+.setinha img {
+    height: 70%;
 }
 
 .img-principal img {

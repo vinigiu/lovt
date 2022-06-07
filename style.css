@@ -69,8 +69,8 @@ main {
     display: flex;
     align-items: center;
     background-color: rgba(141, 141, 141, 0.62);
-    width: 39px;
-    height: 39px;
+    width: 4vh;
+    height: 4vh;
     border-radius: 50%;
 }
 
